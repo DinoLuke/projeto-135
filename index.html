@@ -1,7 +1,7 @@
 <html>
 <head>
 
-	<title>IA localizador de objetos</title>
+	<title>IA de Vigilância por Vídeo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -9,8 +9,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
-  
   <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
   
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -18,17 +16,11 @@
 
 <body background="background.jpg">
 <h1 class="btn btn-warning titulo">
-IA localizador de objetos
-<span style="color:black;font-size: 13px;">O nome de entrada que você fornecer deverá ser o mesmo presente no modelo CoCo, apenas assim o objeto será detectado. <br> Portanto, visto que o modelo CoCo apresenta todos os seus objetos em inglês, você deverá escrever o nome do objeto desejado também em inglês, pois ele não realizará a identificação caso utilize o nome de um objeto em português.</span>
+IA de Vigilância por video
 </h1>
 <br><br>
-<div class="form-group" style="width: 30%;">
-<label>nome do objeto (em inglês:)</label>
-<input type="text" class="form-control" id="objectName">
 
-<br></br>
 <button onclick="START()" class="btn btn-Danger" id="START">START</button>
-</div>
 
 <br><br>
 <h3 class="btn btn-info" id="NumeroObjeto"></h3>
